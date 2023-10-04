@@ -1,13 +1,4 @@
-# Sample Hardhat Project
+# Upgradable Contracts Demo
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project demonstrates a basic upgradable smart contract usecase, by separating states with logic. Using a proxy, the logic is upgradable, while the states are with the proxy.
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
